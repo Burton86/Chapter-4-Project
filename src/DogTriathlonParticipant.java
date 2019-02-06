@@ -18,7 +18,7 @@ public class DogTriathlonParticipant
         agilityScore = score3;
 
         total = obedienceScore + conformationScore + agilityScore;
-        average = (double)total/NUM_EVENTS;
+        avg= (double)total/NUM_EVENTS;
         totalCumulativeScore = totalCumulativeScore + total;
     }
     public void display(){

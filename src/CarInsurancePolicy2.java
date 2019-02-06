@@ -9,17 +9,20 @@ public class CarInsurancePolicy2 {
         numPayments = payments;
         residentCity = city;
     }
+
     public CarInsurancePolicy2(int num, int payments)
     {
-        this(num, payments, city "MayField");
+        this(num, payments, "Mayfield");
     }
+
     public CarInsurancePolicy2(int num)
     {
-        this(num, payments2, city "MayField");
+        this(num, 2, "Mayfield");
     }
+
     public void display()
     {
-        System.out.println("Policy #" + policyNumber + "." + numPayments + "payments annually. Driver resides in" + residentCity + ".");
+        System.out.println("Policy #" + policyNumber + ". " + numPayments +" payments annually. Driver resides in " + residentCity + ".");
     }
 
 }
